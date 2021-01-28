@@ -2,7 +2,7 @@
 
 Public Class Data
     Dim sqlConnection As SqlConnection = New SqlConnection()
-    Dim connectionString As String = "Data Source=DESKTOP-NLEBNTP;Initial Catalog=Agenda;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
+    Dim connectionString As String = ""
 
     Public Function ObtenerContactos() As DataTable
         Dim sConsulta As String
